@@ -21,7 +21,9 @@ def main(url):
     feature_dict = extract_features(parsed_html)
     print(load_scrape(feature_dict))
 
+
 if __name__ == "__main__":
     start_time = time.time()
     main(URL)
     print("--- Time taken: %s seconds ---" % (time.time()-start_time))
+    

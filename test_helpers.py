@@ -24,6 +24,7 @@ def test_parse_html(caplog):
         test_invalid_soup = parse_html(FALSE_TEST_URL)
     assert "Invalid URL used" in caplog.text
 
+
 def test_extract_features():
     """
     Test function to ensure features are extracted successfully.

@@ -12,7 +12,7 @@ There are certain functions that are currently empty that exist as an example of
 
 To run the scraper, firstly ensure all requirements in the [requirements.txt](requirements.txt) file are met, then run `python run.py` from the command line.
 
-Curenetly this will just print the title  of the extracted job, and time taken to run the function in lieu of actual database ingestion.
+Currently this will just print the title of the extracted job, and time taken to run the function in lieu of actual database load.
 
 ## Tests
 
@@ -21,4 +21,3 @@ Each helper function has an associated test. Running `pytest test_helpers.py` wi
 ## TODO
 
 Due to time constraints, certain functions are included but undeveloped, as a demonstrative framework for potential future enhancements. 
-
